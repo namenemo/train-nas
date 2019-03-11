@@ -56,7 +56,7 @@ For ENAS, ENAS (macro) shows good result in OUI-Adience-Age and ENAS (micro)  sh
 
 For DARTS, it has a good performance on some datasets but I found its high variance in other dataset. The difference among three runs of benchmarks can be up to 5.37% in OUI-Adience-Age and 4.36% in ImageNet-10-1.
 
-For NAO-WS, it shows good results in ImageNet-10-2 but it can perform very poorly in OUI-Adience-Age.
+For NAO-WS, it shows good result in ImageNet-10-2 but it can perform very poorly in OUI-Adience-Age.
 
 
 
