@@ -20,7 +20,7 @@ To avoid overfitting in **CIFAR-10** (I hate this dataset) , I also compare the 
 
 I do not change the default fine-tuning technique in their source code. In order to match each task, I change the code of input image shape and output numbers. 
 
-Search phase time for all NAS methods is two days as well as the retrain time.  Average results are reported based on three repeat times.
+Search phase time for all NAS methods is **two days** as well as the retrain time.  Average results are reported based on **three repeat times**.
 
 For NAO, it requires too much computing resources, so I only use NAO-WS that provides the pipeline script.
 
@@ -44,9 +44,9 @@ Unfortunately, I cannot reproduce all the results in the paper.
 
 The best or average results reported in the paper:
 
-| NAS      | ENAS (macro) (%) | ENAS (micro) (%) |   DARTS (%)    | NAO-WS (%)  |
-| -------- | :--------------: | :--------------: | :------------: | :---------: |
-| CIFAR-10 |   96.13(best)    |   97.11(best)    | 97.17(average) | 96.47(best) |
+| NAS      |  AutoKeras (%)   |ENAS (macro) (%) | ENAS (micro) (%) |   DARTS (%)    | NAO-WS (%)  |
+| -------- | :--------------: |:--------------: | :--------------: | :------------: | :---------: |
+| CIFAR-10 |   88.56(best)    |  96.13(best)    |   97.11(best)    | 97.17(average) | 96.47(best) |
 
 
 
